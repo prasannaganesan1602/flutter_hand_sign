@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Cat vs Dog"),
+        title: const Text("Sign Language Converter"),
         actions: [
           IconButton(
             icon: const Icon(Icons.photo),
