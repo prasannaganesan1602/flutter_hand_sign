@@ -64,6 +64,7 @@ flutter:
   assets:
     - assets/tensorflow/model_unquant.tflite
     - assets/tensorflow/labels.txt
+    - assets/splash_logo.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

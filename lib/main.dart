@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hand_sign/screens/HomeScreen.dart';
+import 'package:flutter_hand_sign/screens/SplashScreen.dart';
 
 void main(){
+
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(MyApp());
 }
 
@@ -10,8 +14,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomeScreen(),
+    return MaterialApp(
+      home: SplashScreen(),
     );
   }
 }
